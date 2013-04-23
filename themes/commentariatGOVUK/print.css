@@ -1,0 +1,26 @@
+@import "styles.css";
+
+* {
+	color: black !important;
+}
+
+ul.xoxo, #respond, #access, #searchcontainer, #topheader, .reply , .sharebuttonsanywhere, #promobar, #primarynav, .jumptocomments, .printfriendly, #footer {
+	display: none;
+}
+
+#utilitystrip .container {
+	padding-left: none !important;
+}
+
+p.printonlyheadline {
+	font-size: 2em;
+	position: static !important;
+	top: 0;
+	left: 0 !important;
+	font-weight: bold;
+	padding: 0.5em 0;
+}
+
+#content a:link:after, #content a:visited:after, #sidebar a:link:after, #sidebar a:visited:after { 
+	content:" [" attr(href) "] "; 
+}
